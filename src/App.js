@@ -7,22 +7,22 @@ function App() {
   
   const times = [
     {
-      nome: 'Duelistas',
+      nome: 'Duelista',
       corPrimaria: '#82CFFA',
       corSecundaria: '#E8F8FF',
   },
   {
-      nome: 'Sentinelas',
+      nome: 'Sentinela',
       corPrimaria: '#A6D157',
       corSecundaria: '#F0F8E2',
   },
   {
-      nome: 'Iniciadores',
+      nome: 'Iniciador',
       corPrimaria: '#E06B69',
       corSecundaria: '#FDE7E8',
   },
   {
-      nome: 'Controladores',
+      nome: 'Controlador',
       corPrimaria: '#D86EBF',
       corSecundaria: '#FAE5F5',
   },

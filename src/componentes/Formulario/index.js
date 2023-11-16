@@ -31,7 +31,7 @@ const Formulario = (props) => {
     return (
         <section className="formulario" >
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <h2>Preencha os dados para criar o card de jogador</h2>
                 <CampoTexto 
                     obrigatorio = {true} 
                     label="Nome" 
@@ -40,8 +40,8 @@ const Formulario = (props) => {
                     aoAlterado={valor => setNome(valor)} />
                 <CampoTexto 
                     obrigatorio = {true} 
-                    label="Cargo" 
-                    placeholder="Digite seu Cargo"
+                    label="Main" 
+                    placeholder="Digite seu Main"
                     valor ={cargo}
                     aoAlterado={valor => setCargo(valor)} />
                 <CampoTexto 
@@ -51,7 +51,7 @@ const Formulario = (props) => {
                     aoAlterado={valor => setImagem(valor)} />
                 <ListaSuspensa 
                     obrigatorio = {true} 
-                    label="Time" 
+                    label="Função" 
                     itens = {props.times}
                     valor = {time}
                     aoAlterado={valor => setTime(valor)}
